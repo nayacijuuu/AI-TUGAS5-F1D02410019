@@ -1,0 +1,22 @@
+Rekomendasi kopi: biji, tingkat sangrai, dan cara seduh
+Jawab y/t.
+1. Apakah Anda suka kopi yang rasanya asam segar (seperti buah)? (y/t) > t
+2. Apakah Anda ingin rasa yang seimbang (tidak terlalu asam, tidak terlalu pahit)? (y/t) > t
+3. Apakah Anda suka kopi yang manis dan lembut? (y/t) > t
+4. Apakah Anda suka kopi yang pahit dan pekat? (y/t) > t
+5. Apakah Anda ingin kopi dengan body tebal (terasa penuh di mulut)? (y/t) > t
+6. Apakah Anda punya mesin espresso? (y/t) > t
+7. Apakah Anda punya French press? (y/t) > t
+8. Apakah Anda punya dripper (pour-over) atau mesin kopi drip? (y/t) > t
+9. Apakah Anda ingin kopi dingin? (y/t) > y
+10. Apakah Anda bersedia merendam kopi beberapa jam? (y/t) > t
+11. Apakah seduhan Anda saat ini terasa terlalu pahit atau terlalu asam? (y/t) > t
+12. Apakah seduhan Anda saat ini terasa hambar atau encer? (y/t) > t
+
+Fakta awal: ingin kopi dingin
+
+Siklus 1: tidak ada aturan baru, berhenti
+
+Kesimpulan: tidak ada (fakta yang diberikan belum cukup untuk menarik kesimpulan)
+
+Catatan: Aturan berasal dari 3 sumber: jurnal Universitas Diponegoro (2022), prosiding Politeknik Negeri Jember (2024), dan panduan National Coffee Association USA (2025). Cakupannya hanya selera rasa, jenis biji, tingkat sangrai, dan cara seduh rumahan. Rasa itu subjektif, jadi hasilnya saran awal, bukan keputusan akhir; kopi yang sama bisa terasa berbeda menurut asal biji dan cara pengolahannya.

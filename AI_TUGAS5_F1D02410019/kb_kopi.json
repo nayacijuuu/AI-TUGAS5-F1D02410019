@@ -1,0 +1,39 @@
+{
+  "judul": "Rekomendasi kopi: biji, tingkat sangrai, dan cara seduh",
+  "batas": "Aturan berasal dari 3 sumber: jurnal Universitas Diponegoro (2022), prosiding Politeknik Negeri Jember (2024), dan panduan National Coffee Association USA (2025). Cakupannya hanya selera rasa, jenis biji, tingkat sangrai, dan cara seduh rumahan. Rasa itu subjektif, jadi hasilnya saran awal, bukan keputusan akhir; kopi yang sama bisa terasa berbeda menurut asal biji dan cara pengolahannya.",
+  "sumber": {
+    "S1": "Priyanto, D. A. M., Hintono, A., & Dwiloka, B. (2022). Perbedaan Sifat Fisikokimia dan Organoleptik Produk Kopi Rempah dari Kopi Arabika dan Kopi Robusta. Jurnal Aplikasi Teknologi Pangan 11(4), 179-184, Universitas Diponegoro. https://ejournal2.undip.ac.id/index.php/jatp/article/download/13827/10234, diakses 13 Nov 2026",
+    "S2": "Hartatie, D., & Nisa, F. (2024). Pengaruh Teknik Penyangraian Terhadap Tingkat Kesukaan Konsumen Kopi Arabika Varietas Lini-S 795. Prosiding Agropross, Politeknik Negeri Jember, hlm. 691-697. https://proceedings.polije.ac.id/index.php/agropross/article/download/789/673/1095, diakses 13 Nov 2026",
+    "S3": "National Coffee Association USA. French press coffee (panduan seduh dan ukuran gilingan), diperbarui 6 Feb 2025. https://www.aboutcoffee.org/brewing/french-press-coffee/, diakses 13 Nov 2026"
+  },
+  "pertanyaan": {
+    "suka rasa asam segar": "Apakah Anda suka kopi yang rasanya asam segar (seperti buah)?",
+    "ingin rasa seimbang": "Apakah Anda ingin rasa yang seimbang (tidak terlalu asam, tidak terlalu pahit)?",
+    "suka rasa manis lembut": "Apakah Anda suka kopi yang manis dan lembut?",
+    "suka rasa pahit pekat": "Apakah Anda suka kopi yang pahit dan pekat?",
+    "ingin body tebal": "Apakah Anda ingin kopi dengan body tebal (terasa penuh di mulut)?",
+    "punya mesin espresso": "Apakah Anda punya mesin espresso?",
+    "punya french press": "Apakah Anda punya French press?",
+    "punya dripper atau mesin drip": "Apakah Anda punya dripper (pour-over) atau mesin kopi drip?",
+    "ingin kopi dingin": "Apakah Anda ingin kopi dingin?",
+    "bersedia merendam beberapa jam": "Apakah Anda bersedia merendam kopi beberapa jam?",
+    "kopi terasa terlalu pahit atau asam": "Apakah seduhan Anda saat ini terasa terlalu pahit atau terlalu asam?",
+    "kopi terasa hambar atau encer": "Apakah seduhan Anda saat ini terasa hambar atau encer?"
+  },
+  "aturan": [
+    {"id": "R1",  "jika": ["suka rasa asam segar"], "mode": "dan", "maka": "profil cerah", "sumber": ["S1", "S2"]},
+    {"id": "R2",  "jika": ["ingin rasa seimbang", "suka rasa manis lembut"], "mode": "atau", "maka": "profil seimbang", "sumber": ["S1", "S2"]},
+    {"id": "R3",  "jika": ["suka rasa pahit pekat", "ingin body tebal"], "mode": "atau", "maka": "profil pekat", "sumber": ["S1", "S2", "S3"]},
+    {"id": "R4",  "jika": ["profil cerah"], "mode": "dan", "maka": "BIJI: arabika dengan sangrai terang (light roast)", "sumber": ["S1", "S2"]},
+    {"id": "R5",  "jika": ["profil seimbang"], "mode": "dan", "maka": "BIJI: arabika dengan sangrai sedang (medium roast)", "sumber": ["S1", "S2"]},
+    {"id": "R6",  "jika": ["profil pekat"], "mode": "dan", "maka": "BIJI: robusta atau sangrai gelap (dark roast)", "sumber": ["S1", "S2"]},
+    {"id": "R7",  "jika": ["profil seimbang", "profil pekat"], "mode": "dan", "maka": "BIJI: campuran arabika-robusta dengan sangrai sedang sampai gelap", "sumber": ["S1", "S2"]},
+    {"id": "R8",  "jika": ["punya mesin espresso"], "mode": "dan", "maka": "SEDUH: espresso, gilingan halus (seperti garam meja)", "sumber": ["S3"]},
+    {"id": "R9",  "jika": ["punya french press"], "mode": "dan", "maka": "SEDUH: French press, gilingan kasar (seperti garam batu), air 93 +/- 3 C, sekitar 4 menit, rasio kopi:air 1:10 sampai 1:16", "sumber": ["S3"]},
+    {"id": "R10", "jika": ["punya dripper atau mesin drip"], "mode": "dan", "maka": "SEDUH: drip atau pour-over, gilingan sedang (seperti garam dapur)", "sumber": ["S3"]},
+    {"id": "R11", "jika": ["ingin kopi dingin", "bersedia merendam beberapa jam"], "mode": "dan", "maka": "SEDUH: cold brew, gilingan kasar, rendam beberapa jam", "sumber": ["S3"]},
+    {"id": "R12", "jika": ["punya french press", "profil cerah"], "mode": "dan", "maka": "SARAN: French press paling cocok untuk sangrai sedang sampai gelap; untuk sangrai terang pertimbangkan pour-over", "sumber": ["S2", "S3"]},
+    {"id": "R13", "jika": ["kopi terasa terlalu pahit atau asam"], "mode": "dan", "maka": "PERBAIKAN: gilingan terlalu halus, coba lebih kasar", "sumber": ["S3"]},
+    {"id": "R14", "jika": ["kopi terasa hambar atau encer"], "mode": "dan", "maka": "PERBAIKAN: gilingan terlalu kasar, coba lebih halus", "sumber": ["S3"]}
+  ]
+}

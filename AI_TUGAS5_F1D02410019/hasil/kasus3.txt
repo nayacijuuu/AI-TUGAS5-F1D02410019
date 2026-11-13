@@ -1,0 +1,34 @@
+Rekomendasi kopi: biji, tingkat sangrai, dan cara seduh
+Jawab y/t.
+1. Apakah Anda suka kopi yang rasanya asam segar (seperti buah)? (y/t) > t
+2. Apakah Anda ingin rasa yang seimbang (tidak terlalu asam, tidak terlalu pahit)? (y/t) > t
+3. Apakah Anda suka kopi yang manis dan lembut? (y/t) > t
+4. Apakah Anda suka kopi yang pahit dan pekat? (y/t) > y
+5. Apakah Anda ingin kopi dengan body tebal (terasa penuh di mulut)? (y/t) > y
+6. Apakah Anda punya mesin espresso? (y/t) > y
+7. Apakah Anda punya French press? (y/t) > y
+8. Apakah Anda punya dripper (pour-over) atau mesin kopi drip? (y/t) > t
+9. Apakah Anda ingin kopi dingin? (y/t) > t
+10. Apakah Anda bersedia merendam kopi beberapa jam? (y/t) > t
+11. Apakah seduhan Anda saat ini terasa terlalu pahit atau terlalu asam? (y/t) > t
+12. Apakah seduhan Anda saat ini terasa hambar atau encer? (y/t) > t
+
+Fakta awal: suka rasa pahit pekat, ingin body tebal, punya mesin espresso, punya french press
+
+Siklus 1: R3 -> profil pekat
+Siklus 2: R6 -> BIJI: robusta atau sangrai gelap (dark roast)
+Siklus 3: R8 -> SEDUH: espresso, gilingan halus (seperti garam meja)
+Siklus 4: R9 -> SEDUH: French press, gilingan kasar (seperti garam batu), air 93 +/- 3 C, sekitar 4 menit, rasio kopi:air 1:10 sampai 1:16
+Siklus 5: tidak ada aturan baru, berhenti
+
+Kesimpulan:
+  - BIJI: robusta atau sangrai gelap (dark roast)
+  - SEDUH: espresso, gilingan halus (seperti garam meja)
+  - SEDUH: French press, gilingan kasar (seperti garam batu), air 93 +/- 3 C, sekitar 4 menit, rasio kopi:air 1:10 sampai 1:16
+Alasan:
+  BIJI: robusta atau sangrai gelap (dark roast)  <- R6 (profil pekat)  [sumber: S1, S2]
+    profil pekat  <- R3 (suka rasa pahit pekat, ingin body tebal)  [sumber: S1, S2, S3]
+  SEDUH: espresso, gilingan halus (seperti garam meja)  <- R8 (punya mesin espresso)  [sumber: S3]
+  SEDUH: French press, gilingan kasar (seperti garam batu), air 93 +/- 3 C, sekitar 4 menit, rasio kopi:air 1:10 sampai 1:16  <- R9 (punya french press)  [sumber: S3]
+
+Catatan: Aturan berasal dari 3 sumber: jurnal Universitas Diponegoro (2022), prosiding Politeknik Negeri Jember (2024), dan panduan National Coffee Association USA (2025). Cakupannya hanya selera rasa, jenis biji, tingkat sangrai, dan cara seduh rumahan. Rasa itu subjektif, jadi hasilnya saran awal, bukan keputusan akhir; kopi yang sama bisa terasa berbeda menurut asal biji dan cara pengolahannya.
