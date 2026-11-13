@@ -98,10 +98,6 @@ Mode `dan` = semua syarat harus ada di memori. Mode `atau` = cukup satu syarat. 
 
 `test.py` juga menguji 3 kasus lain (manis lembut + pahit pekat menghasilkan campuran; suka asam + French press memicu saran R12; cold brew + seduhan terlalu pahit). Kasus 2 tidak menghasilkan kesimpulan karena cold brew (R11) butuh dua syarat sekaligus: ingin kopi dingin DAN bersedia merendam beberapa jam.
 
-![Kasus 1](screenshot/kasus1.png)
-![Kasus 2 (tidak ada kesimpulan)](screenshot/kasus2.png)
-![Kasus 3](screenshot/kasus3.png)
-
 ## 7. Batas keberlakuan
 
 Pengetahuan dalam program ini berasal dari tiga sumber: jurnal Universitas Diponegoro (2022), prosiding Politeknik Negeri Jember (2024), dan panduan National Coffee Association USA (2025). Aturannya hanya untuk memilih jenis biji, tingkat sangrai, dan cara seduh rumahan berdasarkan selera, bukan untuk menilai mutu kopi atau memberi saran kesehatan. Selera rasa itu subjektif; perbedaan rasa antartingkat sangrai pada S2 tidak signifikan secara statistik, dan S1 membandingkan hanya satu sampel arabika dan satu sampel robusta, dan sampelnya berupa kopi rempah (ditambah kayu manis dan gula aren), sehingga hubungan "arabika = asam, robusta = pahit" adalah kecenderungan umum, bukan hukum. Hasilnya adalah saran awal, bukan keputusan akhir; coba beberapa kombinasi dan sesuaikan dengan lidah Anda. Catatan ini juga ditampilkan di akhir keluaran program.
